@@ -15,6 +15,7 @@
 		E2A2F15A1C8FADFA007702FE /* NSURLSession_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2F1591C8FADFA007702FE /* NSURLSession_SwiftTests.swift */; };
 		E2A2F1651C8FADFA007702FE /* NSURLSession_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2F1641C8FADFA007702FE /* NSURLSession_SwiftUITests.swift */; };
 		E2A2F1731C8FAE1A007702FE /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2F1721C8FAE1A007702FE /* HTTP.swift */; };
+		E2A2F1771C8FF6EA007702FE /* 888.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E2A2F1761C8FF6EA007702FE /* 888.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E2A2F1641C8FADFA007702FE /* NSURLSession_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLSession_SwiftUITests.swift; sourceTree = "<group>"; };
 		E2A2F1661C8FADFA007702FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2A2F1721C8FAE1A007702FE /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		E2A2F1761C8FF6EA007702FE /* 888.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 888.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				E2A2F1481C8FADFA007702FE /* Main.storyboard */,
 				E2A2F14B1C8FADFA007702FE /* Assets.xcassets */,
 				E2A2F14D1C8FADFA007702FE /* LaunchScreen.storyboard */,
+				E2A2F1761C8FF6EA007702FE /* 888.jpeg */,
 				E2A2F1501C8FADFA007702FE /* Info.plist */,
 			);
 			path = NSURLSession_Swift;
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A2F1771C8FF6EA007702FE /* 888.jpeg in Resources */,
 				E2A2F14F1C8FADFA007702FE /* LaunchScreen.storyboard in Resources */,
 				E2A2F14C1C8FADFA007702FE /* Assets.xcassets in Resources */,
 				E2A2F14A1C8FADFA007702FE /* Main.storyboard in Resources */,
@@ -489,6 +493,7 @@
 				E2A2F16B1C8FADFA007702FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2A2F16C1C8FADFA007702FE /* Build configuration list for PBXNativeTarget "NSURLSession_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				E2A2F16E1C8FADFA007702FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2A2F16F1C8FADFA007702FE /* Build configuration list for PBXNativeTarget "NSURLSession_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				E2A2F1711C8FADFA007702FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
