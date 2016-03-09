@@ -14,6 +14,7 @@
 		E2A2F14F1C8FADFA007702FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A2F14D1C8FADFA007702FE /* LaunchScreen.storyboard */; };
 		E2A2F15A1C8FADFA007702FE /* NSURLSession_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2F1591C8FADFA007702FE /* NSURLSession_SwiftTests.swift */; };
 		E2A2F1651C8FADFA007702FE /* NSURLSession_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2F1641C8FADFA007702FE /* NSURLSession_SwiftUITests.swift */; };
+		E2A2F1731C8FAE1A007702FE /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2F1721C8FAE1A007702FE /* HTTP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E2A2F1601C8FADFA007702FE /* NSURLSession_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSession_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A2F1641C8FADFA007702FE /* NSURLSession_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLSession_SwiftUITests.swift; sourceTree = "<group>"; };
 		E2A2F1661C8FADFA007702FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A2F1721C8FAE1A007702FE /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E2A2F1441C8FADFA007702FE /* AppDelegate.swift */,
 				E2A2F1461C8FADFA007702FE /* ViewController.swift */,
+				E2A2F1721C8FAE1A007702FE /* HTTP.swift */,
 				E2A2F1481C8FADFA007702FE /* Main.storyboard */,
 				E2A2F14B1C8FADFA007702FE /* Assets.xcassets */,
 				E2A2F14D1C8FADFA007702FE /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A2F1731C8FAE1A007702FE /* HTTP.swift in Sources */,
 				E2A2F1471C8FADFA007702FE /* ViewController.swift in Sources */,
 				E2A2F1451C8FADFA007702FE /* AppDelegate.swift in Sources */,
 			);
